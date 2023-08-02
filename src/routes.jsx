@@ -18,7 +18,7 @@ export function AppRoute(){
       <Header/>
       <Info/>
          <Routes>
-            <Route path='/' element= {<Home/>}/>
+            <Route path='/net-filme-api' element= {<Home/>}/>
             <Route path='/movie/:id' element= {<Movie/>} />
             <Route path='/favorite' element={<Favorite/>}/>
 
