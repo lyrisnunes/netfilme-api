@@ -37,9 +37,11 @@ export function Home(){
             {movie.map((movies)=> {
                return(
                   <article key={movies.id}>
-                     <h2>{movies.title}</h2>
-                     <img src={`https://image.tmdb.org/t/p/original/${movies.poster_path}`} alt={movies.title} />
-                     <Link to={`/movie/${movies.id}`}>Ver mas</Link>
+                     <div className="box">
+                        <h3>{movies.title}</h3>
+                        <img src={`https://image.tmdb.org/t/p/original/${movies.poster_path}`} alt={movies.title} />
+                        <Link to={`/movie/${movies.id}`}>Ver mas</Link>
+                     </div>
                   </article>
                )
             })}

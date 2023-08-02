@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   border: none;
+  box-sizing: border-box;
   font-family: Roboto,sans-serif;
 }
 
@@ -18,3 +19,8 @@ body{
   flex-direction: column;
 }
 
+@media(max-width:600px){
+  html{
+    font-size: 85.5%;
+  }
+}
