@@ -1,16 +1,14 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-
-
-import {Home} from './page/Home';
+import { Home } from './page/Home/home';
 import {Movie} from './page/Movie';
-import { Favorite } from './page/Favorite';
+import {Favorite} from './page/Favorite/Favorite'
 
-import { Erro } from './page/Erro';
 
-import { Header } from './components/Header';
-import { Info } from './components/Info';
 
+import { Header } from './components/Header/Header';
+import { Info } from './components/Info/Info';
+import { Erro } from './page/Erro/Erro';
 
 export function AppRoute(){
    return(
@@ -18,7 +16,7 @@ export function AppRoute(){
       <Header/>
       <Info/>
          <Routes>
-            <Route path='/net-filme-api' element= {<Home/>}/>
+            <Route path='/netfilme-api' element= {<Home/>}/>
             <Route path='/movie/:id' element= {<Movie/>} />
             <Route path='/favorite' element={<Favorite/>}/>
 

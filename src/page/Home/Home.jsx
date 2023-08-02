@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import {Link} from 'react-router-dom';
 import { api } from "../../api/api";
 
-import './styles.css'
+import styles from './Home.module.css'
 
 export function Home(){
    const [movie, setMovie] = useState([]);
@@ -26,22 +26,20 @@ export function Home(){
 
    if(loading){
       return(
-         <div className="loading">
+         <div className={styles.loading}>
             <h2>Carregando filme ...</h2>
          </div>
       )
    }
 
    return(
-         <div  className="list-movie">
+         <div  className={styles.listmovie}>
             {movie.map((movies)=> {
                return(
                   <article key={movies.id}>
-                     <div className="box">
                         <h2>{movies.title}</h2>
                         <img src={`https://image.tmdb.org/t/p/original/${movies.poster_path}`} alt={movies.title} />
                         <Link to={`/movie/${movies.id}`}>Ver mas</Link>
-                     </div>
                   </article>
                )
             })}

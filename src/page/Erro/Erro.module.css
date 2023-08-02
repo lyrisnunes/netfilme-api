@@ -1,4 +1,4 @@
-.not-found{
+.notfound{
    margin-top: -4rem;
    height: 100vh;
 
@@ -9,11 +9,11 @@
    color: #FFF;
 }
 
-.not-found h1{
+.notfound h1{
    font-size: 5rem;
 }
 
-.not-found a{
+.notfound a{
    background-color: rebeccapurple;
    color: #FFF;
    margin-top: 1rem;

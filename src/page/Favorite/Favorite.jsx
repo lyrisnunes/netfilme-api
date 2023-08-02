@@ -1,4 +1,4 @@
-import './styles.css';
+import styles from './favorite.module.css'
 
 import { useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
@@ -25,7 +25,7 @@ export function Favorite(){
   }
 
   return(
-    <div className='my-movie'>
+    <div className={styles.mymovie}>
       <h1>Meus filmes </h1>
       {movie.length === 0 && <span>Não existe nenhum filme salvo</span> }
       <ul>
