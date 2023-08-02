@@ -4,7 +4,7 @@ header{
    justify-content: space-between;
    align-items: center;
    padding: 1rem;
-   background: var(--black);
+   font-size: 1.5rem;
 }
 
 header .logo{
@@ -24,16 +24,11 @@ header .button{
    color: #fff;
    padding: 5px 14px;
    border-radius: 4px;
-
+   font-size: 1.5rem;
 }
 
 header .button:hover{
    background-color: #9466FF;
 }
 
-@media(max-width:600px){
-   html{
-      font-size: 80%;
-   }
-}
 
