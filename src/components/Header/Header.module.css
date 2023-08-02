@@ -1,15 +1,17 @@
 header{
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1.5rem 2rem ;
-   background-color: #121214;
-   border-bottom: 1px solid #ffffff61;
+   padding: 1rem;
+   background: var(--black);
 }
 
 header .logo{
-   font-size: 2rem;
-   color: #FFF;
+   font-size: 1.6rem;
+   color: #fff;
+   cursor: pointer;
+   font-weight: bold;
 }
 
 .logo span{
@@ -17,15 +19,21 @@ header .logo{
 }
 
 header .button{
+   cursor: pointer;
    background-color: #6833e4;
-   color: #FFF;
-   font-size: 1rem;
-   border-radius: 5px;
-   padding: 1rem ;
-   text-transform: uppercase;
+   color: #fff;
+   padding: 5px 14px;
+   border-radius: 4px;
+
 }
 
 header .button:hover{
    background-color: #9466FF;
+}
+
+@media(max-width:600px){
+   html{
+      font-size: 80%;
+   }
 }
 
