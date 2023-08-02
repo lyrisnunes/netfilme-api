@@ -2,11 +2,11 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1rem;
+   padding: 1.1rem;
    background-color: #121214;
 }
 header .logo{
-   font-size: 1.5rem;
+   font-size: 1.6rem;
    color: #FFF;
 }
 

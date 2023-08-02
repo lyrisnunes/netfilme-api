@@ -2,6 +2,15 @@
    background-color: #0B0726;
    color: #FFF;
    padding: 1rem;
-   font-size: 1rem;
    text-align: center;
+}
+
+.container p{
+   font-size: 1rem;
+}
+
+@media(max-width:600px){
+   .container p{
+      font-size: 1.2rem;
+   }
 }

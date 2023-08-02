@@ -21,10 +21,10 @@ body{
 
 @media(max-width:600px){
   html{
-    font-size: 89.5%;
+    font-size: 65.5%;
   }
 
   body{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
