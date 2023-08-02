@@ -15,10 +15,11 @@ header .logo{
 .logo span{
    color: #6833e4;
 }
+
 header .button{
    background-color: #6833e4;
    color: #FFF;
-   font-size: 1.5rem;
+   font-size: 1rem;
    border-radius: 5px;
    padding: 1rem ;
    text-transform: uppercase;
@@ -26,11 +27,5 @@ header .button{
 
 header .button:hover{
    background-color: #9466FF;
-}
-
-@media(max-width:600px){
-   html{
-      font-size: 62.5%;
-   }
 }
 
