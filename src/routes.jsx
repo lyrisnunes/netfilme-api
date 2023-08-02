@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import { Home } from './page/Home/home';
-import {Movie} from './page/Movie';
+import { Movie } from './page/Movie/Movie';
 import {Favorite} from './page/Favorite/Favorite'
 
 

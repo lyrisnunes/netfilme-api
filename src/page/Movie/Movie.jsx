@@ -4,7 +4,7 @@ import {toast} from 'react-toastify'
 
 import { api } from "../../api/api";
 
-import './styles.css'
+import styles from './Movie.module.css'
 
 export function Movie(){
    const {id} = useParams();
@@ -65,7 +65,7 @@ export function Movie(){
 }
 
    return(
-      <div className="movie-info">
+      <div className={styles.movieinfo}>
         <img src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`} alt={movie.title} />
         <h2>Sinopse</h2>
         <p> {movie.overview}</p>
@@ -74,7 +74,7 @@ export function Movie(){
         </p>
         <p>Avaliação : {movie.vote_average} / 10</p>
 
-        <div className="btn">
+        <div className={styles.btn}>
             <button onClick={saveMovie}>Salvar</button>
             <button>
                <a target="_blank" rel="external" href={`https://youtube.com/results?search_query=${movie.title} trailer`}>

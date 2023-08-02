@@ -1,4 +1,4 @@
-.movie-info{
+.movieinfo{
    display: flex;
    flex-direction: column;
    max-width: 700px;
@@ -7,15 +7,15 @@
    color: #FFF;
 }
 
-.movie-info h2{
+.movieinfo h2{
    margin: .4rem 0;
 }
 
-.movie-info h3{
+.movieinfo h3{
    margin: .4rem 0;
 }
 
-.movie-info p{
+.movieinfo p{
    margin: .5rem 0;
 }
 
