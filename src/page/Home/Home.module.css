@@ -1,18 +1,15 @@
 .listmovie {
-  max-width: 1300px;
-  height: 300px;
-  padding: 1rem;
+  max-width: 80rem;
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0.5rem;
 }
 
 .listmovie article {
   max-width: 100%;
   padding: 1rem;
   border-radius: 4px;
-  text-align: center;
+  text-align: center; 
 }
 
 .listmovie h2 {
@@ -33,10 +30,10 @@
   border-radius: 1rem 1rem 0 0;
 }
 
-.loading{
-   display: flex;
-   justify-content: center;
-   margin-top: 2rem;
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .listmovie a {
@@ -54,9 +51,3 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
-
-
-
-
