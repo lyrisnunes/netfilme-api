@@ -38,7 +38,7 @@ export function Home(){
                return(
                   <article key={movies.id}>
                      <div className="box">
-                        <h3>{movies.title}</h3>
+                        <h2>{movies.title}</h2>
                         <img src={`https://image.tmdb.org/t/p/original/${movies.poster_path}`} alt={movies.title} />
                         <Link to={`/movie/${movies.id}`}>Ver mas</Link>
                      </div>

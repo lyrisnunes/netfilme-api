@@ -19,8 +19,6 @@
    margin: .5rem 0;
 }
 
-
-
 .btn button{
    background-color: rebeccapurple;
    color: #FFF;
@@ -43,4 +41,10 @@
 
 .btn button a:hover{
    color: #FFF;
+}
+
+@media(max-width:700px){
+   .movie-info p{
+      font-size: .9rem;
+   }
 }
