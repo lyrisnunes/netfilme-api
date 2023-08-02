@@ -1,15 +1,14 @@
 header{
-   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1.1rem;
+   padding: 1.5rem 2rem ;
    background-color: #121214;
    border-bottom: 1px solid #ffffff61;
 }
 
 header .logo{
-   font-size: 1.6rem;
+   font-size: 2rem;
    color: #FFF;
 }
 
@@ -17,15 +16,21 @@ header .logo{
    color: #6833e4;
 }
 header .button{
-   border: 1px solid #6833e4;
+   background-color: #6833e4;
    color: #FFF;
+   font-size: 1.5rem;
    border-radius: 5px;
    padding: 1rem ;
-   transition: all 0.9s;
    text-transform: uppercase;
 }
 
 header .button:hover{
    background-color: #9466FF;
+}
+
+@media(max-width:600px){
+   html{
+      font-size: 62.5%;
+   }
 }
 
