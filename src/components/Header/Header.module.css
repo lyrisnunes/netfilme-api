@@ -3,7 +3,7 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1.1rem;
+   padding: 1.5rem;
    background-color: #121214;
 }
 header .logo{
@@ -18,11 +18,17 @@ header .button{
    border: 1px solid #6833e4;
    color: #FFF;
    border-radius: 5px;
-   padding: .5rem;
+   padding: 5px 14px;
    transition: all 0.9s;
    text-transform: uppercase;
 }
 
 header .button:hover{
    background-color: #9466FF;
+}
+
+@media(max-width:600px){
+   html{
+      font-size: 80%;
+   }
 }
