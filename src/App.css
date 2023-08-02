@@ -18,13 +18,3 @@ body{
   align-items: center;
   flex-direction: column;
 }
-
-@media(max-width:600px){
-  html{
-    font-size: 65.5%;
-  }
-
-  body{
-    font-size: 1.3rem;
-  }
-}

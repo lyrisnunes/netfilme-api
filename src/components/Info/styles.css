@@ -8,9 +8,3 @@
 .container p{
    font-size: 1rem;
 }
-
-@media(max-width:600px){
-   .container p{
-      font-size: 1.2rem;
-   }
-}

@@ -25,3 +25,9 @@ header .button{
 header .button:hover{
    background-color: #9466FF;
 }
+
+@media(max-width:600px){
+   header .button{
+      font-size: 1rem;
+   }
+}
