@@ -55,6 +55,13 @@
   }
 }
 
+@media (max-width: 600px) {
+  .list-movie {
+    grid-template-columns: 1fr ;
+  }
+}
+
+
 
 
 
