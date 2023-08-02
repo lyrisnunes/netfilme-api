@@ -17,7 +17,7 @@
 
 .list-movie h2 {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   text-align: center;
   margin-bottom: 1rem;
   display: block;
@@ -31,6 +31,12 @@
   object-fit: cover;
 
   border-radius: 1rem 1rem 0 0;
+}
+
+.loading{
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
 }
 
 .list-movie a {
@@ -48,14 +54,3 @@
   }
 }
 
-@media (max-width: 800px) {
-  .list-movie {
-    grid-template-columns: 1fr;
-  }
-}
-
-.loading{
-   display: flex;
-   justify-content: center;
-   margin-top: 2rem;
-}
