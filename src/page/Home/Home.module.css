@@ -2,7 +2,7 @@
   max-width: 80rem;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr ;
 }
 
 .listmovie article {
@@ -46,8 +46,4 @@
   border-radius: 0 0 1rem 1rem;
 }
 
-@media (max-width: 1100px) {
-  .listmovie {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
