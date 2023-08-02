@@ -18,8 +18,3 @@ body{
   flex-direction: column;
 }
 
-@media(max-width:700px){
-  html{
-    font-size: 90.9%;
-  }
-}
