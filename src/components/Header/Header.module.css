@@ -7,6 +7,7 @@ header{
    background-color: #121214;
    border-bottom: 1px solid #ffffff61;
 }
+
 header .logo{
    font-size: 1.6rem;
    color: #FFF;
@@ -28,8 +29,3 @@ header .button:hover{
    background-color: #9466FF;
 }
 
-@media(max-width:600px){
-   html{
-      font-size: 80%;
-   }
-}
