@@ -1,0 +1,51 @@
+.my-movie{
+   color: #FFF;
+   margin-top: 2rem;
+   text-align: center;
+}
+
+.my-movie h1{
+   margin-bottom: 1.9rem;
+   text-align: center;
+}
+
+.my-movie span{
+   font-size: 1.1rem;
+}
+
+.my-movie ul{
+   width: 600px;
+   margin: auto;
+}
+
+.my-movie ul li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom:1.5rem ;
+}
+
+.my-movie div a{
+   margin-right: 1rem;
+   border: 1px solid #4863F7;
+   border-radius: 4px;
+   color: #FFF;
+   padding: .5rem;
+   transition: all 0.9s;
+}
+
+.my-movie div a:hover{
+   background-color: #4863F7;
+}
+
+@media(max-width:600px){
+   .my-movie ul{
+      width: 400px;
+   }
+}
+
+@media(max-width:400px){
+   .my-movie ul{
+      width: 300px;
+   }
+}
