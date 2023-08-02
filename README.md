@@ -1,7 +1,7 @@
 ## NET FILME 
 
 <h1>
-         <img src="src/img/video.mp4" >
+         <img src="src/img/gif.gif" >
 </h1>
 
 Aplicação que utiliza integração com API, hooks que exibe informações sobre filmes em cartaz.
