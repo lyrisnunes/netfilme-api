@@ -1,4 +1,4 @@
-import styles from './App.module.css'
+import './App.css'
 
 import {AppRoute} from './routes'
 import {ToastContainer} from 'react-toastify'

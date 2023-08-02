@@ -3,8 +3,9 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1.5rem;
+   padding: 1.1rem;
    background-color: #121214;
+   border-bottom: 1px solid #ffffff61;
 }
 header .logo{
    font-size: 1.6rem;
@@ -18,7 +19,7 @@ header .button{
    border: 1px solid #6833e4;
    color: #FFF;
    border-radius: 5px;
-   padding: 5px 14px;
+   padding: 1rem ;
    transition: all 0.9s;
    text-transform: uppercase;
 }
