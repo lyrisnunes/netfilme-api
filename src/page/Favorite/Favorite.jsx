@@ -35,7 +35,7 @@ export function Favorite(){
             <span>{item.title}</span>
 
             <div>
-              <Link to={`/movie/${item.id}`}>Ver detalhes</Link>
+              <Link to={`/movie/${item.id}`}>Detalhes</Link>
               <Link onClick={() => deleteMovie(item.id) }>Deletar</Link>
             </div>
             </li>
