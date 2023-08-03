@@ -11,3 +11,10 @@
 body{
   background-color: #121214;
 }
+
+@media(max-width:600px){
+  html{
+  font-size: 69.5%;
+}
+}
+

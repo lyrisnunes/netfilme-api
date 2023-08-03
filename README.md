@@ -30,7 +30,7 @@ A aplicação é uma página web que exibe informações sobre filme, incluindo 
 ## Deploy 
 
  <h4>
-        <a href="https://lyrisnunes.github.io/net-filme-api/"> - Veja o projeto clique aqui </a>
+        <a href="https://lyrisnunes.github.io/netfilme-api/"> - Veja o projeto clique aqui </a>
 </h4>
 
 <br>
