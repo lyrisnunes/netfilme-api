@@ -16,7 +16,7 @@
 .mymovie ul{
    width: 600px;
    margin: auto;
-   padding: 0 1rem;
+   padding: 0 .3rem;
 }
 
 .mymovie ul li{
@@ -41,7 +41,7 @@
 
 @media(max-width:600px){
    .mymovie ul{
-      width: 400px;
+      width: 420px;
    }
 }
 
