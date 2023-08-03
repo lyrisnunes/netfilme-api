@@ -43,8 +43,3 @@
    color: #FFF;
 }
 
-@media(max-width:700px){
-   .movie-info p{
-      font-size: .9rem;
-   }
-}

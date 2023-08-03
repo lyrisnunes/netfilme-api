@@ -1,10 +1,8 @@
 header{
-   height: 100px;
-   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1rem;
+   padding: .5rem;
    border-bottom: 1px solid #ffffff46;
 }
 
@@ -17,6 +15,10 @@ header .logo{
 
 .logo span{
    color: #6833e4;
+}
+
+header a{
+   font-size: 1rem;
 }
 
 header .button{
