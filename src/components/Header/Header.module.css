@@ -2,12 +2,12 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: .5rem;
+   padding: 1rem;
    border-bottom: 1px solid #ffffff46;
 }
 
 header .logo{
-   font-size: 1.6rem;
+   font-size: 1.5rem;
    color: #fff;
    cursor: pointer;
    font-weight: bold;
@@ -25,11 +25,10 @@ header .button{
    cursor: pointer;
    background-color: #6833e4;
    color: #fff;
-   padding: 15px 20px;
+   padding: .9rem;
    border-radius: 4px;
 }
 
 header .button:hover{
    background-color: #9466FF;
 }
-
